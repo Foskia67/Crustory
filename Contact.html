@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crustory Contact</title>
+<style>
+body {
+    margin:0;
+    font-family: Verdana, sans-serif;
+    background:#f4efe6;
+}
+/* HEADER */
+header {
+    background:#2b1d17;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+header img {
+    width:100px;
+    height:auto;
+    margin-bottom:10px;
+}
+/* NAV */
+nav {
+    background:#4a3228;
+    padding:10px;
+    text-align:center;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+nav a:hover {
+    color:orange;
+}
+/* CONTACT SECTION */
+section {
+    padding:40px;
+    text-align:center;
+}
+section h2 {
+    margin-bottom:20px;
+}
+.contact-info, .contact-form {
+    background:white;
+    display:inline-block;
+    padding:20px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    max-width:400px;
+    width:90%;
+}
+.contact-form input, 
+.contact-form textarea {
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+.contact-form button {
+    padding:10px 20px;
+    background:#4a3228;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.contact-form button:hover {
+    background:orange;
+}
+/* FOOTER */
+footer {
+    background:#2b1d17;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Crustory Logo">
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="manga.html">Manga</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<section>
+    <div class="contact-info">
+        <h2>Crustory Café</h2>
+        <p>Email: crustory.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <p>Address: Mandaluyong City, Philippines</p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2026 Crustory Café
+</footer>
+
+</body>
+</html>

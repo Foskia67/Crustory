@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crustory Manga Library</title>
+<style>
+body {
+    margin:0;
+    font-family: Verdana, sans-serif;
+    background:#f4efe6;
+}
+/* HEADER */
+header {
+    background:#2b1d17;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+header img {
+    width:100px;
+    height:auto;
+    margin-bottom:10px;
+}
+/* NAV */
+nav {
+    background:#4a3228;
+    padding:10px;
+    text-align:center;
+}
+nav a {
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+nav a:hover {
+    color:orange;
+}
+/* MANGA LIST */
+section {
+    padding:30px;
+}
+.category {
+    margin-bottom:40px;
+}
+.category h2 {
+    text-align:center;
+    color:#2b1d17;
+    margin-bottom:20px;
+}
+.items {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.box {
+    background:white;
+    padding:15px;
+    margin:15px;
+    border-radius:10px;
+    width:180px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+.box img {
+    width:160px;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:8px;
+}
+.box h3 {
+    margin:8px 0 4px 0;
+    font-size:16px;
+}
+/* FOOTER */
+footer {
+    background:#2b1d17;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Crustory Logo">
+    <h1>Manga Library</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="manga.html">Manga</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<section>
+
+    <div class="category">
+        <h2>My Manga Collection</h2>
+        <div class="items">
+            <div class="box">
+                <img src="One Piece.jpg" alt="One Piece">
+                <h3>One Piece</h3>
+            </div>
+            <div class="box">
+                <img src="Detective Conan.jpg" alt="Detective Conan">
+                <h3>Detective Conan</h3>
+            </div>
+            <div class="box">
+                <img src="Naruto.jpg" alt="Naruto">
+                <h3>Naruto</h3>
+            </div>
+            <!-- Add more manga boxes here -->
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Crustory Café
+</footer>
+
+</body>
+</html>

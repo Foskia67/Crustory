@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Crustory Login</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Verdana, sans-serif;
+    background:#f4efe6;
+}
+
+/* HEADER */
+
+header{
+    background:#2b1d17;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+header img{
+    width:100px;
+    height:auto;
+}
+
+/* LOGIN BOX */
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
+
+.login-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    width:300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.login-box h2{
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#4a3228;
+    color:white;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:orange;
+}
+
+a{
+    display:block;
+    text-align:center;
+    margin-top:10px;
+    text-decoration:none;
+    color:#4a3228;
+}
+
+a:hover{
+    color:orange;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Crustory Logo">
+    <h1>Crustory Manga Café</h1>
+    <p>Login</p>
+</header>
+
+<div class="container">
+    <div class="login-box">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button>Login</button>
+        <a href="index.html">Back to Home</a>
+    </div>
+</div>
+
+</body>
+</html>
